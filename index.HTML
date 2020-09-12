@@ -4,8 +4,11 @@
     <meta charset="utf-8">
     <title>Portfolio</title>
     <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <section id="div1">
@@ -59,7 +62,127 @@
       </table>
     </section>
 
+    <section id="div3">
+      <div class="card-deck">
+        <div class="card card1">
+          <div class="card-header">
+            <img class="cardOneImg" src="images/laptop.png"/><h5 class="cardOneHeader">Web Design</h5>
+          </div>
+          <div class="card-body">
+            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus.</p>
+          </div>
+        </div>
+
+        <div class="card card2">
+          <div class="card-header">
+            <img class="cardTwoImg" src="images/mobile.png" /><h5 class="cardTwoHeader">App Design</h5>
+          </div>
+          <div class="card-body">
+            <p>Donec consequat volutpat metus sit amet egestas. Nulla vehicula porta suscipit. Cras imperdiet sit amet lorem eu.</p>
+          </div>
+        </div>
+
+        <div class="card card3">
+          <div class="card-header">
+            <img class="cardThreeImg" src="images/backend.png" /><h5 class="cardThreeHeader">Backend Development</h5>
+          </div>
+          <div class="card-body">
+            <p>Pellentesque ut finibus purus. Nunc at rhoncus ante, posuere faucibus augue. Cras sollicitudin massa ac accumsan sodales. Sed venenatis elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
+    <section id="div4">
+
+    <h3>Skills</h3>
+    <table>
+    <tr class="skillsRow1">
+    <td>
+    <img class="skillsImg" src="images/html.png" alt="" >
+    <p style="color:white">HTML5</p>
+    </td>
+    <td>
+    <img class="skillsImg" src="images/css.png" alt="">
+        <p style="color:white">CSS3</p>
+    </td>
+    <td>
+    <img class="skillsImg" style="filter: invert(100%)" src="images/javascript.png" alt="">
+        <p style="color:white">JavaScript</p>
+    </td>
+    <td>
+    <img class="skillsImg" style="filter: invert(100%)" src="images/bootstrap.png" alt="">
+        <p style="color:white">BootStrap</p>
+    </td>
+    <td>
+    <img class="skillsImg" src="images/JQuery.png" style="filter: invert(100%)" alt="">
+        <p style="color:white">JQuery</p>
+    </td>
+    </tr>
+    <tr class="skillsRow2">
+      <td>
+    <img class="skillsImg" src="images/nodejs.png" alt="">
+        <p style="color:white">Node.js</p>
+      </td>
+      <td>
+    <img class="skillsImg" src="images/API.png" style="filter: invert(100%)" alt="">
+    <p style="color:white">APIs</p>
+      </td>
+      <td>
+    <img class="skillsImg" src="images/EJS.png" alt="" style="filter: invert(100%)">
+    <p style="color:white">EJS</p>
+      </td>
+      <td>
+        <img class="skillsImg" src="images/GitHub.png" alt="" style="filter: invert(100%)">
+        <p style="color:white">GitHub</p>
+      </td>
+    </tr>
+    </table>
+    </section>
+
+
+
+
+
+    <section id="div5">
+
+    <div data-aos="fade-up">
+    <img class="footerImg" src="images/coming-soon.png" alt="">
+    </div>
+      <div data-aos="fade-up">
+    <p> <strong>Thanks for scrolling,</strong> thats all folks.</p>
+  </div>
+  <div data-aos="fade-up">
+  <table>
+  <tr>
+    <div data-aos="fade-up">
+    <td>
+
+      <i id="git" class="fab fa-github-square" ></i>
+      </div>
+    </td>
+
+    <div data-aos="fade-up">
+    <td>
+      <i id="lin" class="fab fa-linkedin-in"></i>
+    </td>
+    </div>
+    <div data-aos="fade-up">
+    <td>
+      <i id="ins" class="fab fa-instagram"></i>
+    </td>
+    </div>
+  </tr>
+</table>
+</div>
+    </section>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+ <script src="app.js"></script>
   </body>
 </html>

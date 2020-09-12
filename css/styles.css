@@ -71,6 +71,117 @@ margin-left: 20px;
 }
 #div2{
   padding-left: 6rem;
-  margin-top: 9rem;
-  padding-bottom: 9rem;
+  /* margin-top: 9rem; */
+  padding-top: 9rem;
+  padding-bottom: 1rem;
+}
+.card-deck{
+  margin: 120px;
+  text-align: center;
+  padding-top: 60px;
+}
+.card1{
+
+}
+.card2{
+
+}
+.card3{
+
+}
+.card{
+ background-color: inherit;
+ border-color: #393e46;
+}
+.card-body{
+  color: white;
+  border-color: inherit;
+}
+.card-header{
+  border-color: #393e46;
+  background-color: #393e46;
+}
+#div3{
+  background-color: #393e46;
+  height: 400px;
+}
+.card-header .cardOneHeader{
+  position: absolute;
+  color: white;
+  left: 115px;
+  top:120px;
+}
+.card-header .cardTwoHeader{
+  position: absolute;
+  color: white;
+  left: 115px;
+  top:120px;
+}
+.card-header .cardThreeHeader{
+  position: absolute;
+  color: white;
+  left: 70px;
+  top:  120px;
+}
+.card-body p{
+  padding-top: 25px;
+}
+.card .cardOneImg{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  filter: invert(100%);
+  bottom: 5px;
+}
+.card .cardTwoImg{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  filter: invert(100%);
+  bottom: 20px;
+}
+.card .cardThreeImg{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  filter: invert(100%);
+  bottom: 20px;
+}
+#div4{
+  background-color: #222831;
+  padding: 50px;
+  text-align: center;
+  height: 400px;
+}
+#div4 li{
+  color: white;
+}
+#div4 h3{
+  color: white;
+}
+#div4 table{
+  width: 100%;
+}
+.skillsImg{
+  height: 70px;
+  width: 70px;
+}
+.skillsRow1{
+  height: 170px;
+}
+.footerImg{
+  height: 80px;
+  width: 80px;
+}
+#div5{
+  height: 340px;
+  text-align: center;
+  padding: 70px;
+}
+#div5 table{
+  margin-left: 45.96%;
+  width: 8%;
+}
+.fab {
+  color : black;
 }
