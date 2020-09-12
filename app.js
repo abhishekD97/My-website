@@ -1,3 +1,8 @@
+
+
+
+
+
 for (var i = 0; i < document.querySelectorAll(".fab").length; i++) {
   document.querySelectorAll(".fab")[i].addEventListener("click", function() {
     switch (this.id) {
