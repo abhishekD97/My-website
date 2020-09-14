@@ -185,3 +185,11 @@ margin-left: 20px;
 .fab {
   color : black;
 }
+.navItem{
+  color: white;
+}
+/* Navigation bar hover properties */
+.hover:hover{
+  text-decoration:none;
+  color: red;
+}
