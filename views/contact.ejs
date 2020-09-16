@@ -15,62 +15,40 @@
 
 <body>
 
+<%- include("partials/header.ejs") -%>
 
-      <div class="sectionOne">
-          <div class="contactHeader">
-         <h3>REACH ME TODAY</h3>
-         <p>Let's talk</p>
-       </div>
-         <form class="" action="/" method="post">
-         <!-- <label for="name">Name</label> -->
-         <input autocomplete="off" placeholder="Name" class="form-control" type="text" name="name"> <br>
-         <!-- <label for="mailID">Email</label> -->
-         <input autocomplete="off" placeholder="Email" class="form-control" type="email" name="mailID"> <br>
-         <!-- <label for="userMessage">Message</label> -->
-         <textarea autocomplete="off" class="form-control" placeholder="Your message or feedback" name="userMessage" rows="5" cols="50"></textarea><br>
-         <!-- <input type="checkbox" name="like" value="liked">
-         <label for="like">Did you like my Design</label> <br>  -->
-         <button type="button" class="btn btn-lg btn-primary" name="button">Submit</button>
-         </form>
-       </div>
-
-     <div class="sectionTwo">
-          <div class="navbar">
-             <div class="navbar-nav navbar-expand-lg navbar-light">
-               <a class="navbar-brand navigation-brand"><img src="images/code.png" height="50" width="50" alt=""></a>
-               <div class="nav-item list-item1">
-                 <li><a  class="navItemText hover" href="/">Home</a></li>
-               </div>
-               <div class="nav-item list-item2">
-                 <li><a href="/home"  class="hover navItemText">Education</a></li>
-               </div>
-               <div class="nav-item list-item-last">
-                 <li><a class="navItemText hover" href="/home">Contact</a></li>
-               </div>
-             </div>
-          </div>
+        <img class="top" src="images/mountain.jpg" alt="">
+        <div class="con">
+          <table>
+          <tr>
+            <td style="background-color:white;">
+        <div class="MessageBlock">
+        <h5>Send a Message</h5>
+        <form action="/" method="post">
+        <input class="form-control" type="text" name="Name" value="" placeholder="Name">
+        <input class="form-control" type="email" name="Email" value="" placeholder="Email">
+        <textarea class="form-control" name="name" rows="8" cols="50" placeholder="Your Message/Feedback"></textarea> <br>
+        <button class="btn btn-lg btn-dark" type="submit" name="Submit">Send</button>
+        </form>
+        </div>
+        </td>
+        <td style="background-color:#393e46">
+        <div class="ContactBlock">
+        <h5>Contact Info</h5>
+        <br>
+        <br>
+        <img src="https://img.icons8.com/ios-glyphs/90/000000/iphone-x.png" height="28" width="28"/><p class="ContactInfoText" style="display:inline-block; margin-left:25px;" >abhishekdolli@gmail.com</p> <br><br>
+        <img src="https://img.icons8.com/ios-glyphs/90/000000/filled-message.png" height="28" width="28"/><p class="ContactInfoText" style="display:inline-block; margin-left:25px;" >+91 890-404-7354</p> <br><br>
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/map-pin.png" height="28" width="28"/><p class="ContactInfoText" style="display:inline-block; margin-left:25px;" >Hubli, Karnataka, India</p> <br><br>
+        <br>
+        <a href="https://github.com/abhishekD97"><i style="margin-left:15px;margin-right:15px; color:#222831;" id="git" class="fab fa-github-square fa-1x"></i></a>
+        <a href="https://www.linkedin.com/in/abhishek-dolli-0526b4196"><i style="margin-left:15px;margin-right:15px; color:#222831;" id="git" class="fab fa-linkedin-in fa-1x"></i></a>
+        <a href="https://www.instagram.com/cyborg_8274/"><i style="margin-left:15px;margin-right:15px; color:#222831;" id="git" class="fab fa-instagram fa-1x"></i></a>
+        </div>
+        </td>
+        </tr>
+        </table>
         </div>
 
-
-
-        <div class=" card contactInfo">
-          <div class="actualInformation">
-        <h3 class="userDataHeader">CONTACT INFORMATION</h3>
-        <h6><strong>EMAIL</strong></h6>
-        <!-- <img src="images/emailIcon.png" height="37" width="37" alt=""> -->
-        <p style="display:inline-block" >abhishekdolli@gmail.com</p> <br>
-        <h6><strong>PHONE</strong></h6>
-        <!-- <img src="images/callIcon.png" height="37" width="37" alt=""> -->
-        <p style="display:inline-block" >+91 890-404-7354</p> <br>
-        <h6><strong>LOCATION</strong></h6>
-        <!-- <img src="images/gpsIcon.png" height="37" width="37" alt=""> -->
-        <p style="display:inline-block" >Hubli, Karnataka, India</p> <br>
-        <!-- <h3 class="socialIconsHeader">Follow me</h3> -->
-        <a href="https://github.com/abhishekD97"><i id="git" class="fab fa-github-square"></i></a>
-        <a href="https://www.linkedin.com/in/abhishek-dolli-0526b4196"><i id="git" class="fab fa-linkedin-in"></i></a>
-        <a href="https://www.instagram.com/cyborg_8274/"><i id="git" class="fab fa-instagram"></i></a>
-          </div>
-        </div>
- </table>
  <script src="app.js" charset="utf-8"></script>
  </body>
