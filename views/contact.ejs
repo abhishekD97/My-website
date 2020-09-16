@@ -10,21 +10,24 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles2.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
 
-<body style="background-color:grey">
+<body>
 
 
       <div class="sectionOne">
+          <div class="contactHeader">
          <h3>REACH ME TODAY</h3>
          <p>Let's talk</p>
+       </div>
          <form class="" action="/" method="post">
-         <label for="name">Name</label>
-         <input class="form-control" type="text" name="name">
-         <label for="mailID">Email</label>
-         <input class="form-control" type="email" name="mailID">
-         <label for="userMessage">Message</label>
-         <textarea class="form-control" placeholder="Feedback/Message" name="userMessage" rows="8" cols="80"></textarea>
+         <!-- <label for="name">Name</label> -->
+         <input autocomplete="off" placeholder="Name" class="form-control" type="text" name="name"> <br>
+         <!-- <label for="mailID">Email</label> -->
+         <input autocomplete="off" placeholder="Email" class="form-control" type="email" name="mailID"> <br>
+         <!-- <label for="userMessage">Message</label> -->
+         <textarea autocomplete="off" class="form-control" placeholder="Your message or feedback" name="userMessage" rows="5" cols="50"></textarea><br>
          <!-- <input type="checkbox" name="like" value="liked">
          <label for="like">Did you like my Design</label> <br>  -->
          <button type="button" class="btn btn-lg btn-primary" name="button">Submit</button>
@@ -33,18 +36,39 @@
 
      <div class="sectionTwo">
           <div class="navbar">
-             <div class="navbar-nav navbar-expand-lg navbar-light ">
-               <!-- <a class="navbar-brand navigation-brand"><img src="images/code.png" height="50" width="50" alt=""></a> -->
+             <div class="navbar-nav navbar-expand-lg navbar-light">
+               <a class="navbar-brand navigation-brand"><img src="images/code.png" height="50" width="50" alt=""></a>
                <div class="nav-item list-item1">
-                 <li><a  class="navItem hover" href="/">Home</a></li>
+                 <li><a  class="navItemText hover" href="/">Home</a></li>
                </div>
                <div class="nav-item list-item2">
-                 <li><a href="/home"  class="hover navItem">Education</a></li>
+                 <li><a href="/home"  class="hover navItemText">Education</a></li>
                </div>
                <div class="nav-item list-item-last">
-                 <li><a class="navItem hover" href="/home">Contact</a></li>
+                 <li><a class="navItemText hover" href="/home">Contact</a></li>
                </div>
              </div>
+          </div>
+        </div>
+
+
+
+        <div class=" card contactInfo">
+          <div class="actualInformation">
+        <h3 class="userDataHeader">CONTACT INFORMATION</h3>
+        <h6><strong>EMAIL</strong></h6>
+        <!-- <img src="images/emailIcon.png" height="37" width="37" alt=""> -->
+        <p style="display:inline-block" >abhishekdolli@gmail.com</p> <br>
+        <h6><strong>PHONE</strong></h6>
+        <!-- <img src="images/callIcon.png" height="37" width="37" alt=""> -->
+        <p style="display:inline-block" >+91 890-404-7354</p> <br>
+        <h6><strong>LOCATION</strong></h6>
+        <!-- <img src="images/gpsIcon.png" height="37" width="37" alt=""> -->
+        <p style="display:inline-block" >Hubli, Karnataka, India</p> <br>
+        <!-- <h3 class="socialIconsHeader">Follow me</h3> -->
+        <a href="https://github.com/abhishekD97"><i id="git" class="fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/abhishek-dolli-0526b4196"><i id="git" class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/cyborg_8274/"><i id="git" class="fab fa-instagram"></i></a>
           </div>
         </div>
  </table>

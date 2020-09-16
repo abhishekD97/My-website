@@ -1,7 +1,80 @@
+body{
+  background-color:#222831;
+}
+/* Message Section  */
 .sectionOne{
-  width: 50%;
-  height: 100%;
+  display: inline-block;
+  margin: 100px;
+  width: 400px;
 }
+/* navigation section */
 .sectionTwo{
-  width: 50%;
+  display: inline-block;
+  position: absolute;
+  right: 164px;
+  z-index: 1;
 }
+/* navigation item styles */
+.nav-item{
+  margin: 18px 20px 0 20px;
+}
+.navItemText{
+  color: white;
+}
+.navItemText:hover{
+  text-decoration: none;
+  color:white;
+}
+.contactHeader{
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+.navigation-brand{
+  display: inline-block;
+  position: relative;
+  right: 790px;
+}
+.contactInfo{
+  text-align:center;
+  position: absolute;
+  background-color: #393e46;
+  display: inline-block;
+  z-index: 0;
+  height: 50rem;
+  width: 55%;
+}
+.actualInformation{
+  color: white;
+  position: relative;
+  margin: 200px;
+  right: 40px;
+  bottom: 35px;
+  text-align: left;
+
+}
+.actualInformation .userDataHeader{
+  padding-bottom: 2.8rem;
+}
+.actualInformation p{
+  padding-left: 0rem;
+}
+.actualInformation i{
+  margin-left: 10px;
+  margin-right: 12px;
+  padding-top: 3rem;
+  padding-left: 2.1rem;
+  color: #222831;
+}
+.form-control{
+  background-color: inherit;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/* .actualInformation .socialIconsHeader{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+} */
