@@ -24,7 +24,7 @@ position: relative;
 position:relative;
 text-align: left;
 background-color: #393e46;
-bottom: 30px;
+bottom: 5px;
 }
 .con td{
   padding: 25px;
@@ -56,7 +56,11 @@ bottom: 30px;
 .navigation-brand{
   display: inline-block;
   position: relative;
-  right: 790px;
+  right: 810px;
+}
+.navbar{
+   position: relative;
+   left: 80px;
 }
 /*--------------------------- Navigation styles -----------------------------------*/
 .form-control{
@@ -66,4 +70,51 @@ bottom: 30px;
   border-right: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+}
+/*=--------------------------weather page--------------------------------------=*/
+.wrapper{
+  position: absolute;
+  text-align: left;
+    width: 500px;
+    height: 753px;
+    margin: 0 auto;
+    bottom: -129px;
+    left: 843px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+}
+.container-fluid input{
+    margin: 40px;
+    background-color: inherit;
+    border-style: none;
+    border-bottom-style: solid;
+    width: 390px;
+    margin-bottom: 0px;
+}
+.container-fluid input:focus{
+    outline: none !important;
+    border:1px solid inherit;
+}
+.hr{
+  border-top: 1px dotted grey;
+  border-width: thick;
+  width: 50px;
+  padding-bottom: 25px;
+}
+h5{
+  margin-left: 30px;
+}
+p{
+  margin-left: 30px;
+}
+.floatingInfo{
+  position: absolute;
+  bottom: 320px;
+  left: 420px;
+}
+.HomeButton{
+  display: inline-block;
+  position: absolute;
+  right: 95.17%;
+  top: 2%;
 }
