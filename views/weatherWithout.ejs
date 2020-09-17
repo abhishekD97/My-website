@@ -1,35 +1,41 @@
  <!DOCTYPE html>
  <html lang="en" dir="ltr">
-   <head>
-     <meta charset="utf-8">
-     <title>weatherWithout</title>
-     <link rel="stylesheet" href="css/styles2.css">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-   </head>
 
-   <body style="margin:0;">
- <img class="weatherImage" src="images/sky7.jpg" style="max-width:100%; max-height:100%" alt="">
- <a href="/"><img class="HomeButton" src="images/code.png" height="50" width="50" alt=""></a>
- <div class="wrapper">
- <div class="container-fluid">
-   <form class="" action="/weather" method="post">
- <input type="text" name="city" placeholder="Enter City" autocomplete="off"><br><br>
- <button class="btn btn-md btn-dark" style="margin-left:35px" type="submit" name="submit">Submit</button>
- <hr class="hr">
- </form>
- <h5>Weather Details</h5>
- <br>
- <p style="display:inline-block">Cloudy</p><p></p>
-  <p style="display:inline-block">Humidity</p><p></p>
-  <p style="display:inline-block">Wind</p><p></p>
-  </div>
-  </div>
+ <head>
+   <meta charset="utf-8">
+   <title>weatherWithout</title>
+   <link rel="stylesheet" href="css/styles2.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ </head>
 
-  <div class="floatingInfo">
-  <h3></h3><p></p><i></i>
-  </div>
+ <body style="margin:0;">
+   <img class="weatherImage" src="images/sky7.jpg" style="max-width:100%; max-height:100%" alt="">
+   <a href="/"><img class="HomeButton" src="images/code.png" height="50" width="50" alt=""></a>
+   <div class="wrapper">
+     <div class="container-fluid">
+       <form class="" action="/weather" method="post">
+         <input type="text" name="city" placeholder="Enter City" autocomplete="off"><br><br>
+         <button class="btn btn-md btn-dark" style="margin-left:35px" type="submit" name="submit">Submit</button>
+         <hr class="hr">
+       </form>
+       <h5>Weather Details</h5>
+       <br>
+       <p style="display:inline-block">Cloudy</p>
+       <p></p>
+       <p style="display:inline-block">Humidity</p>
+       <p></p>
+       <p style="display:inline-block">Wind</p>
+       <p></p>
+     </div>
+   </div>
+
+   <div class="floatingInfo">
+     <h3></h3>
+     <p></p><i></i>
+   </div>
 
 
-  <script src="app.js" charset="utf-8"></script>
-    </body>
+   <script src="app.js" charset="utf-8"></script>
+ </body>
+
  </html>
